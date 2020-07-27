@@ -1,0 +1,36 @@
+.about-image{
+    height: 100px;
+}
+
+.content-page-wrapper {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: calc(100vh - 84px);
+
+    .right-column{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 100px;
+    }
+
+    .right-column2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 100px;
+        .contact-bullets{
+            .icon{
+                display: grid;
+                grid-gap: 1px;
+                color: $teal;
+                font-size: 2em;
+                padding-left: -5px
+
+            }
+        }
+    }
+  }
